@@ -3,14 +3,16 @@ using namespace std;
 
 int main(){
 	int *bilP = new int;
-  cout<< *bilP <<" Awal " << endl;
+  
 	cout << "Masukan Bilangan : ";
 	cin >> *bilP;
 	cout << endl;
+  
+  	*bilP = *bilP%2;
 
-	if (*bilP%2 == 0){
-		cout<< *bilP <<" Adalah bilangan genap" << endl;
+	if (*bilP == 0){
+		cout<< " Genap " << endl;
 	}else {
-		cout<< *bilP <<" Adalah bilangan ganjil" << endl;	
+		cout<< " Ganjil " << endl;	
 	}
 }
