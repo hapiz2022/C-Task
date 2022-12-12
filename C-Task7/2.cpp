@@ -27,12 +27,17 @@ int main() {
   }
   cout << "Bilangan " << cari << " ditemukan sebanyak " << jumlah << endl;
 
+  bool found = false;
   for (i = 0; i < input; i++) {
     if (bilangan[i] == cari) {
       cout << "Pada posisi ke = " << i;
+      found = true;
       break;
     }
   }
-
+  if (!found) {
+    cout << "Bilangan tidak ditemukan" << endl;
+  }
+  
   return 0;
 }
