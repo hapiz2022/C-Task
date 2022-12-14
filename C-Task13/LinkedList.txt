@@ -1,0 +1,7 @@
+Kegunaan dari linked list antara lain:
+
+1. Dapat menyimpan data dengan ukuran yang dinamis, artinya ukuran linked list tidak terbatas dan bisa diubah-ubah sesuai kebutuhan program.
+2. Dapat menambah atau menghapus elemen dengan cepat dan mudah.
+3. Tidak perlu mengalokasikan memori secara eksplisit seperti halnya array.
+4. Bisa digunakan dalam implementasi stack, queue, dan linked list sendiri.
+5. Bisa digunakan dalam aplikasi yang membutuhkan manipulasi data yang cepat dan fleksibel.
